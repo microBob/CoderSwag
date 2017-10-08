@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F86D2221F898BA6006C253F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86D2211F898BA6006C253F /* DataService.swift */; };
 		9FB79B8B1F81484A00417B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB79B8A1F81484A00417B19 /* AppDelegate.swift */; };
 		9FB79B8D1F81484A00417B19 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB79B8C1F81484A00417B19 /* CategoriesVC.swift */; };
 		9FB79B901F81484A00417B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB79B8E1F81484A00417B19 /* Main.storyboard */; };
 		9FB79B921F81484A00417B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB79B911F81484A00417B19 /* Assets.xcassets */; };
 		9FB79B951F81484A00417B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB79B931F81484A00417B19 /* LaunchScreen.storyboard */; };
 		9FB79BA01F814D1A00417B19 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB79B9F1F814D1A00417B19 /* CategoryCell.swift */; };
+		9FB79BA31F8153D200417B19 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB79BA21F8153D200417B19 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F86D2211F898BA6006C253F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		9FB79B871F81484A00417B19 /* CoderSwag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoderSwag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB79B8A1F81484A00417B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FB79B8C1F81484A00417B19 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		9FB79B941F81484A00417B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FB79B961F81484A00417B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FB79B9F1F814D1A00417B19 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		9FB79BA21F8153D200417B19 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F86D2201F898B98006C253F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9F86D2211F898BA6006C253F /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		9FB79B7E1F81484A00417B19 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +68,7 @@
 		9FB79B891F81484A00417B19 /* CoderSwag */ = {
 			isa = PBXGroup;
 			children = (
+				9F86D2201F898B98006C253F /* Services */,
 				9FB79B9E1F814CAF00417B19 /* View */,
 				9FB79B9D1F814CAA00417B19 /* Model */,
 				9FB79B9C1F814CA500417B19 /* Controller */,
@@ -79,6 +92,7 @@
 		9FB79B9D1F814CAA00417B19 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9FB79BA21F8153D200417B19 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +180,8 @@
 				9FB79B8D1F81484A00417B19 /* CategoriesVC.swift in Sources */,
 				9FB79B8B1F81484A00417B19 /* AppDelegate.swift in Sources */,
 				9FB79BA01F814D1A00417B19 /* CategoryCell.swift in Sources */,
+				9FB79BA31F8153D200417B19 /* Category.swift in Sources */,
+				9F86D2221F898BA6006C253F /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
