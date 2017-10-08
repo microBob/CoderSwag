@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F365BC61F8A82D700B5FE54 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F365BC51F8A82D700B5FE54 /* ProductCell.swift */; };
+		9F365BC81F8A83A200B5FE54 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F365BC71F8A83A200B5FE54 /* Product.swift */; };
 		9F86D2221F898BA6006C253F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86D2211F898BA6006C253F /* DataService.swift */; };
 		9FB79B8B1F81484A00417B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB79B8A1F81484A00417B19 /* AppDelegate.swift */; };
 		9FB79B8D1F81484A00417B19 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB79B8C1F81484A00417B19 /* CategoriesVC.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		9F365BC51F8A82D700B5FE54 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		9F365BC71F8A83A200B5FE54 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		9F86D2211F898BA6006C253F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		9FB79B871F81484A00417B19 /* CoderSwag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoderSwag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB79B8A1F81484A00417B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				9FB79BA21F8153D200417B19 /* Category.swift */,
+				9F365BC71F8A83A200B5FE54 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				9F365BC61F8A82D700B5FE54 /* ProductCell.swift in Sources */,
 				9FB79BA31F8153D200417B19 /* Category.swift in Sources */,
 				9F86D2221F898BA6006C253F /* DataService.swift in Sources */,
+				9F365BC81F8A83A200B5FE54 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
